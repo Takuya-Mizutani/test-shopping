@@ -3,6 +3,7 @@ from django.conf import settings
 from django.views import generic
 from .models import Book, BuyingHistory
 import stripe
+from djnago.views.generic.base import TemplateView
 
 stripe.api_key = settings.STRIPE_SECRET_KEY
 
