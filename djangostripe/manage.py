@@ -3,7 +3,7 @@
 import os
 import sys
 sys.path.append('/private/var/mobile/Containers/Shared/AppGroup/F08856A9-B931-4DFF-9D47-CF440DA4BEF3/File\ Provider\ Storage/Repositories/test-shopping/djangostripe')
-
+sys.path.appemd('')
 
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'djangostripe.settings')
