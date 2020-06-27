@@ -49,3 +49,11 @@ def create_checkout_session(request):
             return JsonResponse({'sessionId': checkout_session['id']})
         except Exception as e:
             return JsonResponse({'error': str(e)})
+
+
+class SuccessView(TemplateView):
+	template_name = 'success.html'
+	
+
+class CancelledView(TemplateView):
+	template_name = 'cancelled.html'
