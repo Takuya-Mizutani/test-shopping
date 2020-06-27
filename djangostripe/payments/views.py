@@ -41,7 +41,7 @@ def create_checkout_session(request):
                     {
                         'name': 'T-shirt',
                         'quantity': 1,
-                        'currency': 'usd',
+                        'currency': 'jpy',
                         'amount': '2000',
                     }
                 ]
